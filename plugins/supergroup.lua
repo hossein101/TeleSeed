@@ -1481,7 +1481,7 @@ local function run(msg, matches)
 				resolve_username(username,  callbackres, cbres_extra)
 			else
 				savelog(msg.to.id, name_log.." ["..msg.from.id.."] requested SuperGroup ID")
-				return reply_msg(msg.id, "> <b>SuperGroup ID</b>: <code>"..msg.to.id.."</code>\n> <b>Your ID</b>: <code>"..msg.from.id.."</code>\n> <b>Username</b>: @"..(msg.from.username or '').."\n> <b>Phone Number</b>: <code>+"..(msg.from.phone or '404 Not Found').."</code>\n> <b>Your Link</b>: Telegram.Me/"..(msg.from.username or '').."\n> <b>Channel</b>: @Red_Ch", ok_cb, false)		end
+				return reply_msg(msg.id, "> <b>SuperGroup ID</b>: <code>"..msg.to.id.."</code>\n> <b>Supergroup Name</b>: <i>"..msg.to.title.."</i>\n> <b>Your ID</b>: <code>"..msg.from.id.."</code>\n> <b>Username</b>: @"..(msg.from.username or '').."\n> <b>Phone Number</b>: <code>+"..(msg.from.phone or '404 Not Found').."</code>\n> <b>Your Link</b>: Telegram.Me/"..(msg.from.username or '').."\n> <b>Channel</b>: @Red_Ch", ok_cb, false)		end
 		end
 
 		if matches[1] == 'kickme' then
