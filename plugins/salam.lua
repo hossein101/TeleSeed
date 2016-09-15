@@ -1,5 +1,5 @@
 local function run(msg, matches)
-local mina = 199471668
+local mina = 278051404
   local hash = 'rank:variables'
   local text = ''
     local value = redis:hget(hash, msg.from.id)
@@ -7,16 +7,16 @@ local mina = 199471668
         if msg.from.id == tonumber(mina) then 
            text = text..'باباسلإم☹️سلام بابا☹️❤️سلام بابایہ خوبم❤️🙂\n\n'
          elseif is_admin2(msg.from.id) then
-           text = text..' \n\nسلام'
+           text = text..' \n\n'
          elseif is_owner2(msg.from.id, msg.to.id) then
-           text = text..' \n\nسلام'
+           text = text..' \n\n'
          elseif is_momod2(msg.from.id, msg.to.id) then
-           text = text..' \nسلام'
+           text = text..' \n'
      else
-           text = text..'\n\nسلام'
+           text = text..'\n\n'
       end
       else
-       text = text..'سلام '..value..'  \n\nسلام'
+       text = text..' '..value..'  \n\n'
      end
 return text
     
