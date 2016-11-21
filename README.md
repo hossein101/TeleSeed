@@ -235,7 +235,7 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 # Let's install the bot.
 cd $HOME
-https://github.com/hossein101/ho3ein.git
+git clone https://github.com/hossein101/ho3ein.git
 cd ho3ein
 chmod +x launch.sh
 ./launch.sh install
