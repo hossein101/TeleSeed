@@ -233,9 +233,25 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {285776113,278543602,262171688},--Sudo users
+    sudo_users = {285776113,278543602,262171688,102525591},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Writed By : @XxX_B_A_D_B_O_Y_XxX
+    about_text = [[<b>RedBot V.1</b>
+<b>An advanced administration bot based on TG-CLI written in Lua Open source!</b>
+
+
+<b>Support Link:</b>
+https://telegram.me/joinchat/Cz-RM0BvyXEU_YAtBP1q6g
+
+<b>Admins:</b>
+@VAHSHI_TYPER <b>[Developer, Founder, Manager]</b>
+
+@O_ojust_sheydao_O <b>[Developer, Manager]</b>
+		
+@IVIR_76 <b>[Manager]</b>
+		
+<b>Our channel:</b>
+
+@Red_Ch
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -450,7 +466,7 @@ will return group ban list
 
 ]],
 	help_text_super =[[
-SuperGroup Commands:
+<b>SuperGroup Commands:
 
 !info
 Displays general info about the SuperGroup
@@ -588,7 +604,10 @@ Returns group logs
 
 *Only moderators and owner can use block, ban, unban, newlink, link, setphoto, setname, lock, unlock, setrules, setabout and settings commands
 
-*Only owner can use res, setowner, promote, demote, and log commands
+*Only owner can use res, setowner, promote, demote, and log commands</b>
+--------------------------------
+<b>Channel:</b>
+		@RED_CH
 
 ]],
   }
