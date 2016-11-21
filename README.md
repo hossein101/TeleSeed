@@ -290,7 +290,9 @@ Join our bot development group by sending `/join 1047524697` to [@Red_ch](https:
 
 * * *
 
-#Writed By : (https://telegram.me/VAHSHI_TYPER)
+#Writed By : 
+
+[@HO3EIN](https://telegram.me/VAHSHI_TYPER)
 
 ### Our Telegram channels:
 
