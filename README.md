@@ -11,7 +11,7 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 # Let's install the bot.
 cd $HOME
 git clone https://github.com/hossein101/ho3ein.git
-cd ho3ein
+cd redbot
 chmod +x launch.sh
 ./launch.sh install
 ./launch.sh # Enter a phone number & confirmation code.
@@ -27,7 +27,7 @@ sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgr
 
 #Writed By : 
 
-[@HO3EIN](https://telegram.me/VAHSHI_TYPER)
+[![https://telegram.me/Vahshi_Typer](https://img.shields.io/badge/%F0%9F%92%AC_Telegram-HO3EIN-blue.svg)](https://telegram.me/Vahshi_Typer)
 
 ### Our Telegram channels:
 
